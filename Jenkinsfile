@@ -4,19 +4,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building...'
+                echo 'Building...Avi '
                 // Add build steps here
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing...'
+                echo 'Testing...Oshi'
                 // Add test steps here
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying...'
+                echo 'Deploying...Shashank'
                 // Add deploy steps here
             }
         }
